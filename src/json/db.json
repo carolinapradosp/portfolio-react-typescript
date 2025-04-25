@@ -1,0 +1,168 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Frigelar",
+            "description": "Description of project 1",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Knockout.js",
+                "Oracle Commerce Cloud"
+            ],
+            "link": "https://frigelar.com.br"
+        },
+        {
+            "id": 2,
+            "name": "Studio Twenty Seven",
+            "description": "Description of project 2",
+            "technologies": [
+                "Wordpress",
+                "PHP",
+                "MySQL",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "link": "https://www.studiotwentyseven.com/"
+        },
+        {
+            "id": 3,
+            "name": "Galápagos",
+            "description": "Description of project 3",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Node.js"
+            ],
+            "link": "https://carolinaprado.com.br"
+        },
+        {
+            "id": 4,
+            "name": "pegar da alura 2",
+            "description": "Description of project 3",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Node.js"
+            ],
+            "link": "https://carolinaprado.com.br"
+        },
+        {
+            "id": 5,
+            "name": "pegar da alura 3",
+            "description": "Description of project 3",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Node.js"
+            ],
+            "link": "https://carolinaprado.com.br"
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "name": "HTML",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 2,
+            "name": "CSS/LESS",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 3,
+            "name": "Bootstrap",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 4,
+            "name": "JavaScript",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 5,
+            "name": "React",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 6,
+            "name": "Styled Components",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 7,
+            "name": "Node.js",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 8,
+            "name": "TypeScript",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 9,
+            "name": "API REST",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 10,
+            "name": "MySQL",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 11,
+            "name": "WordPress",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 12,
+            "name": "Oracle Commerce Cloud",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 13,
+            "name": "Photoshop",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 14,
+            "name": "Illustrator",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 15,
+            "name": "Figma",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 16,
+            "name": "Git/GitHub",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        },
+        {
+            "id": 17,
+            "name": "E-mail Marketing",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+        }
+    ],
+    "contact": {
+        "email": "carolina.prado@live.com",
+        "phone": "+55 11 91328-8205",
+        "linkedin": "https://www.linkedin.com/in/carolina-prado/",
+        "github": "https://github.com/carolinapradosp/",
+        "website": "https://carolinaprado.com.br",
+        "address": {
+            "city": "Itaquaquecetuba",
+            "state": "SP"
+        }
+    }
+}
