@@ -17,13 +17,13 @@ export default function Header() {
         <header>
             <ContainerNav>
                 <div className={styles.logo}>
-                    <Link to='/'><Texto texto="Carolina Prado" tag="h2" color='#000' /></Link>
+                    <Link to='/'><Texto texto='Portfólio' tag='h1' fontSize={60} color='#000' /></Link>
                 </div>
                 <ul>
                     <li><Link to='/'>INICIO</Link></li>
-                    <li><Link to='#'>SKILLS</Link></li>
-                    <li><Link to='#'>PORTFÓLIO</Link></li>
-                    <li><Link to='#'>CONTATO</Link></li>
+                    <li><Link to='#skills'>SKILLS</Link></li>
+                    <li><Link to='#portfolio'>PORTFÓLIO</Link></li>
+                    <li><Link to='#contato'>CONTATO</Link></li>
                 </ul>
             </ContainerNav>
         </header>

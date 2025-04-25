@@ -32,6 +32,12 @@ hr {
   overflow: visible; 
 }
 
+.container{
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 
 pre {
   font-family: monospace, monospace; 

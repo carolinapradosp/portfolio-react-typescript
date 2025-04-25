@@ -1,48 +1,37 @@
 import styles from './Texto.module.css';
+import { ReactNode } from 'react';
 
 interface TextoProps {
     texto?: string;
-    children?: string;
+    children?: ReactNode;
     tag: 'h1' | 'h2' | 'h3' | 'p' | 'span';
-    align?: 'left' | 'center' | 'right';
-    color?: string;
-    fontSize?: 'small' | 'medium' | 'large' | 'xlarge'; // Mudamos para tamanhos pré-definidos
+    align?: 'left' | 'center' | 'right'; // Tornamos opcional com valor padrão
+    color?: string; // Tornamos opcional com valor padrão
+    fontSize?: number; // Tornamos opcional com valor padrão
 }
 
 function Texto({
     texto,
     children,
     tag,
-    align = 'left',
-    color = 'inherit',
-    fontSize = 'medium'
+    align = 'left', // Valor padrão se não for fornecido
+    color = 'inherit', // Valor padrão se não for fornecido
+    fontSize = 16 // Valor padrão se não for fornecido (em pixels)
 }: TextoProps) {
     const Tag = tag;
     const conteudo = children || texto;
 
-    // Mapeamento de classes CSS
-    const alignClass = {
-        left: styles.alignLeft,
-        center: styles.alignCenter,
-        right: styles.alignRight
-    }[align];
-
-    const fontSizeClass = {
-        small: styles.fontSmall,
-        medium: styles.fontMedium,
-        large: styles.fontLarge,
-        xlarge: styles.fontXLarge
-    }[fontSize];
-
-    const colorStyle = color !== 'inherit' ? { color } : {};
-
-    // Combina todas as classes
-    const className = `${styles.texto} ${alignClass} ${fontSizeClass}`;
+    // Objeto de estilo dinâmico
+    const estilo = {
+        textAlign: align,
+        color: color,
+        fontSize: `${fontSize}px`
+    };
 
     return (
         <Tag
-            className={className}
-            style={colorStyle} // Apenas color fica inline por ser dinâmico
+            className={styles.texto}
+            style={estilo} // Aplicamos os estilos inline
         >
             {conteudo}
         </Tag>
